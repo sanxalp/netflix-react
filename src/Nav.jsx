@@ -26,13 +26,13 @@ function Nav() {
         <img
           onClick={() => navigate("/")}
           className="nav__logo"
-          src="https://i.ibb.co/N7rQGy8/netflix-logo.png"
+          src="/netflix-logo.png"
           alt=""
         />
         <img
           onClick={() => navigate("/profile")}
           className="nav__avatar"
-          src="https://i.ibb.co/1XGxdsc/netflix-avatar.webp"
+          src="/netflix-avatar.png"
           alt=""
         />
       </div>

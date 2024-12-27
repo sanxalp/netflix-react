@@ -8,11 +8,7 @@ function LoginScreen() {
   return (
     <div className="loginScreen">
       <div className="loginScreen__background">
-        <img
-          className="loginScreen__logo"
-          src="https://i.ibb.co/N7rQGy8/netflix-logo.png"
-          alt=""
-        />
+        <img className="loginScreen__logo" src="/netflix-logo.png" alt="" />
         <button onClick={() => setSignIn(true)} className="loginScreen__button">
           Sign In
         </button>
@@ -50,7 +46,3 @@ function LoginScreen() {
 }
 
 export default LoginScreen;
-
-//https://ibb.co/2hSfZHL
-// https://ibb.co/NN2zm1R
-// https://ibb.co/t3zk1J7
