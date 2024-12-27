@@ -26,7 +26,7 @@ function Nav() {
         <img
           onClick={() => navigate("/")}
           className="nav__logo"
-          src="/netflix-logo.png"
+          src="/pelicula.png"
           alt=""
         />
         <img
